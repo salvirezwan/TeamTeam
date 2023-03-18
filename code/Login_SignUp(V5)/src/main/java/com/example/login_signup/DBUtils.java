@@ -15,7 +15,7 @@ import java.sql.*;
 public class DBUtils {
     public static String p = HelloController.USERNAME;
     public static String signup_username = SignUpController.signUpUsername;
-    public static String PASSWORD = null;
+//    public static String PASSWORD = null;
 //    public static String HashedPass;
     public static void changeScene(ActionEvent event, String fxmlFile, String title, String username, String fav_channel)
     {

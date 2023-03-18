@@ -10,6 +10,10 @@ import java.net.URL;
 import java.util.ResourceBundle;
 
 public class ThreeResumeOptionsController implements Initializable {
+
+
+    @FXML
+    public Button button_back;
     @FXML
     public Button button_resumebuilder;
     @FXML
@@ -36,6 +40,13 @@ public class ThreeResumeOptionsController implements Initializable {
             @Override
             public void handle(ActionEvent event) {
                 DBUtils.changeScene(event, "ResumeGuidelines.fxml", null, null, null);
+            }
+        });
+
+        button_back.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
+            public void handle(ActionEvent event) {
+                DBUtils.changeScene(event,"ResumeFirstPage.fxml",null,null,null);
             }
         });
 

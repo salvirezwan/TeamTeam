@@ -11,6 +11,10 @@ import java.util.ResourceBundle;
 
 public class SignUpController implements Initializable {
     public static String signUpUsername;
+
+
+    @FXML
+    public Button button_sendOtp;
     @FXML
     public TextField tf_username;
     @FXML
@@ -41,8 +45,26 @@ public class SignUpController implements Initializable {
                 {
 //                    System.out.println("aage" + signUpUsername);
                     signUpUsername = tf_username.getText();
+//                    try {
+//                        MyEmail.Email(signUpUsername);
+//                        button_sendOtp.setOnAction(new EventHandler<ActionEvent>() {
+//                            @Override
+//                            public void handle(ActionEvent event) {
+//                                DBUtils.changeScene(event,"authentication.fxml",null,null,null);
+//                            }
+//                        });
+//                    } catch (Exception e) {
+//                        throw new RuntimeException(e);
+//                    }
 //                    System.out.println("pore" + signUpUsername);
+//                    if(pf_password.getLength() >= 8)
                     DBUtils.signUpUser(actionEvent, signUpUsername, pf_password.getText());
+//                    else
+//                    {
+//                        Alert alert = new Alert(Alert.AlertType.ERROR);
+//                        alert.setContentText("Minimum 8 characters need to be provided.");
+//                        alert.show();
+//                    }
                 }
                 else
                 {
