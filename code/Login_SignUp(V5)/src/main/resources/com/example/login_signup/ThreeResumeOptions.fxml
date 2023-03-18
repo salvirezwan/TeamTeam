@@ -8,6 +8,6 @@
       <Button fx:id="button_resumebuilder" layoutX="111.0" layoutY="146.0" mnemonicParsing="false" text="Resume Builder" />
       <Button fx:id="button_resumesamples" layoutX="262.0" layoutY="146.0" mnemonicParsing="false" text="Resume Samples" />
       <Button fx:id="button_resumeguidelines" layoutX="441.0" layoutY="146.0" mnemonicParsing="false" text="Resume Guidelines" />
-      <Button fx:id="button_back" layoutX="484.0" layoutY="324.0" mnemonicParsing="false" text="Basck" />
+      <Button fx:id="button_back" layoutX="484.0" layoutY="324.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="73.0" text="Back" />
    </children>
 </AnchorPane>

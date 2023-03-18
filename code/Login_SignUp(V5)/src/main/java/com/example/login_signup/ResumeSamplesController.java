@@ -14,9 +14,6 @@ public class ResumeSamplesController implements Initializable {
 
 
     @FXML
-    public Button button_back;
-
-    @FXML
     public Button button_accountant;
     @FXML
 
@@ -59,13 +56,6 @@ public class ResumeSamplesController implements Initializable {
                 @Override
                 public void handle(ActionEvent actionEvent) {
                     DBUtils.changeScene(actionEvent, "Accountant.fxml", null, null, null);
-                }
-            });
-
-            button_back.setOnAction(new EventHandler<ActionEvent>() {
-                @Override
-                public void handle(ActionEvent event) {
-                    DBUtils.changeScene(event,"ThreeResumeOptions.fxml",null,null,null);
                 }
             });
 
