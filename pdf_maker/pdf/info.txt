@@ -1,0 +1,49 @@
+--------Swift CV--------
+-------------Your CV Info-------------
+_________________________________
+CV type: sdfsdasdf
+
+Name:		 asafasfsaf
+
+Email:		 
+
+Contact:		 
+
+Permanent Address:		 
+
+Job Title 1:		 
+
+Job Title 2:		 
+
+Job Title 3:		 
+
+Company 1:		 
+
+Company 2:		 
+
+Company 3:		 
+
+SSC Year:		 
+
+SSC Institution:		 
+
+SSC GPA:		 
+
+HSC Year:		 
+
+HSC Institution:		 
+
+HSC GPA:		 
+
+Bachelor Year:		 
+
+Bachelor Institution:		 
+
+Bachelor GPA:		 
+
+Git link:		 
+
+Interests:		 
+
+References:		 
+
