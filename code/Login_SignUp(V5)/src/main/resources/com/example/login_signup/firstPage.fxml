@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane fx:id="firstpageap" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@cssStyle.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane fx:id="loginsidepanel" layoutY="-4.0" prefHeight="115.0" prefWidth="600.0" stylesheets="@cssStyle.css">
+         <children>
+            <ImageView fitHeight="75.0" fitWidth="89.0" layoutX="50.0" layoutY="20.0" pickOnBounds="true">
+               <image>
+                  <Image url="@png-transparent-career-development-computer-icons-job-employment-career-coach-blue-logo-employment.png" />
+               </image>
+            </ImageView>
+            <AnchorPane fx:id="signuminnerap" layoutX="208.0" layoutY="31.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="53.0" prefWidth="295.0">
+               <children>
+                  <Label fx:id="it_jobland1" layoutX="2.0" layoutY="16.0" prefHeight="22.0" prefWidth="291.0" text=" Welcome to IT JOBLAND">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <Line endX="156.33331298828125" endY="-5.7220458984375E-6" layoutX="338.0" layoutY="95.0" startX="-122.33331298828125" startY="-5.7220458984375E-6" stroke="WHITE" />
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="67.0" fitWidth="606.0" layoutX="-3.0" layoutY="333.0" pickOnBounds="true">
+         <image>
+            <Image url="@wave2.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane fx:id="adminap" layoutX="63.0" layoutY="188.0" prefHeight="125.0" prefWidth="117.0">
+         <children>
+            <ImageView fitHeight="42.0" fitWidth="39.0" layoutX="39.0" layoutY="14.0" pickOnBounds="true">
+               <image>
+                  <Image url="@admin1.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="admin_button" layoutX="33.0" layoutY="78.0" mnemonicParsing="false" text="Admin" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="employerap" layoutX="241.0" layoutY="188.0" prefHeight="125.0" prefWidth="117.0">
+         <children>
+            <ImageView fitHeight="42.0" fitWidth="39.0" layoutX="39.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@employer.jpg" />
+               </image>
+            </ImageView>
+            <Button fx:id="employer_button" layoutX="26.0" layoutY="79.0" mnemonicParsing="false" text="Employer" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="jobseekerap" layoutX="421.0" layoutY="188.0" prefHeight="125.0" prefWidth="117.0">
+         <children>
+            <ImageView fitHeight="42.0" fitWidth="39.0" layoutX="39.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@jobseeker1.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="jobseeker_button" layoutX="14.0" layoutY="78.0" mnemonicParsing="false" text="Job seeker" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="Questionap" layoutX="94.0" layoutY="137.0" prefHeight="29.0" prefWidth="412.0">
+         <children>
+            <Text fx:id="questionText" layoutX="95.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" text="You want to enter the system as :" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

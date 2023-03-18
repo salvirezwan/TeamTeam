@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #C5D5F2;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.login_signup.MailConfirmationController">
+   <children>
+      <PasswordField fx:id="pf_ver" layoutX="173.0" layoutY="187.0" mouseTransparent="true" prefHeight="25.0" prefWidth="253.0" promptText="Verification Code" />
+      <Button fx:id="button_confirm_ver_code" layoutX="256.0" layoutY="249.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="85.0" text="Verify" />
+   </children>
+</AnchorPane>
