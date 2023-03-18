@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="286.0" prefWidth="472.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.templateaddview.SoftDevTempController">
+   <children>
+      <Button fx:id="b1" layoutX="164.0" layoutY="93.0" mnemonicParsing="false" onAction="#onClickButton" prefHeight="26.0" prefWidth="144.0" text="SoftwareDev1" />
+      <Button fx:id="b2" layoutX="164.0" layoutY="176.0" mnemonicParsing="false" onAction="#onClickButton" prefHeight="26.0" prefWidth="144.0" text="SoftwareDev2" />
+   </children>
+</AnchorPane>
