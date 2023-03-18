@@ -40,7 +40,7 @@
             </ImageView>
             <AnchorPane fx:id="signuminnerap" layoutX="24.0" layoutY="126.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="53.0" prefWidth="149.0">
                <children>
-                  <Label fx:id="it_jobland1" layoutX="13.0" layoutY="16.0" prefHeight="17.0" prefWidth="123.0" text=" IT JOBLAND" />
+                  <Label fx:id="it_jobland1" layoutX="13.0" layoutY="16.0" prefHeight="17.0" prefWidth="123.0" text="CV SWIFT" />
                </children>
             </AnchorPane>
             <AnchorPane fx:id="introap" layoutX="26.0" layoutY="252.0" prefHeight="40.0" prefWidth="149.0">

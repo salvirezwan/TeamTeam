@@ -9,11 +9,14 @@ import javafx.scene.control.Alert;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+import java.security.NoSuchAlgorithmException;
 import java.sql.*;
 
 public class DBUtils {
     public static String p = HelloController.USERNAME;
     public static String signup_username = SignUpController.signUpUsername;
+    public static String PASSWORD = null;
+//    public static String HashedPass;
     public static void changeScene(ActionEvent event, String fxmlFile, String title, String username, String fav_channel)
     {
         Parent root = null;
@@ -155,8 +158,14 @@ public class DBUtils {
             resultset = psCheckUserExists.executeQuery();
 //            UPDATE users SET password = ? WHERE username = ?
             psInsert = connection.prepareStatement("UPDATE users SET password = ? WHERE email = ?");
-//
-            psInsert.setString(1, password);
+//            Encrypt encryptor = new Encrypt();
+//            String hashedPass = Encrypt.encryptor.encryptString(password);
+//            System.out.println(hashedPass);
+
+            Encrypt.encryptString(password);
+
+          //  psInsert.setString(1, password);
+            psInsert.setString(1,Encrypt.hashedPass);
             psInsert.setString (2, username);
 
 
@@ -167,8 +176,9 @@ public class DBUtils {
 
         } catch (SQLException e) {
             e.printStackTrace();
-        }
-        finally{
+        } catch (NoSuchAlgorithmException e) {
+            throw new RuntimeException(e);
+        } finally{
             if(resultset !=  null)
             {
                 try{
@@ -237,8 +247,12 @@ public class DBUtils {
                 psInsert = connection.prepareStatement("INSERT INTO users (email, password) VALUES (?, ?)");
 //
                 psInsert.setString (1, username);
+//                Encrypt encryptor = new Encrypt();
 
-                psInsert.setString (2, password);
+                Encrypt.encryptString(password);
+//                System.out.println(HashedPass);
+                System.out.println(Encrypt.hashedPass);
+                psInsert.setString (2, Encrypt.hashedPass);
 
 //                psInsert.setString (3);
 
@@ -254,8 +268,9 @@ public class DBUtils {
 
         } catch (SQLException e) {
             e.printStackTrace();
-        }
-        finally{
+        } catch (NoSuchAlgorithmException e) {
+            throw new RuntimeException(e);
+        } finally{
             if(resultset !=  null)
             {
                 try{
@@ -321,8 +336,10 @@ public class DBUtils {
                 {
                     String retrievedPassword = resultSet.getString("password");
                     String retrievedChannel = null;
+                    password = Encrypt.encryptString(password);
+//                    Encrypt.encryptString(password);
 //                    resultSet.getInt();
-                    if(retrievedPassword.equals(password))
+                    if(password.equals(Encrypt.hashedPass))
                     {
                         changeScene(event, "loggedin.fxml", "Welcome!", username, retrievedChannel);
                     }
@@ -338,8 +355,9 @@ public class DBUtils {
             }
         } catch (SQLException e) {
             e.printStackTrace();
-        }
-        finally{
+        } catch (NoSuchAlgorithmException e) {
+            throw new RuntimeException(e);
+        } finally{
             if(resultSet!=null)
             {
                 try{
