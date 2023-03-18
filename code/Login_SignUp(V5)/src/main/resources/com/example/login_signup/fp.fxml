@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #C5D5F2;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.login_signup.FpController">
+   <children>
+      <Label layoutX="122.0" layoutY="169.0" text="Email" />
+      <TextField fx:id="tf_email" layoutX="176.0" layoutY="165.0" />
+      <Button fx:id="button_send_mail" layoutX="216.0" layoutY="228.0" mnemonicParsing="false" text="Send Email" />
+   </children>
+</AnchorPane>

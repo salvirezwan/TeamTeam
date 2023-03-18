@@ -1,0 +1,197 @@
+#blogpostap{
+    -fx-background-color:"#C5D5F2";
+}
+#loggedinSidePanel
+{
+    -fx-background-color:"#232E71";
+}
+
+#adminap
+{
+    -fx-background-color:"#8086AD";
+    -fx-background-radius: 15px;
+}
+
+#employerap
+{
+    -fx-background-color:"#8086AD";
+    -fx-background-radius: 15px;
+}
+
+#jobseekerap
+{
+    -fx-background-color:"#8086AD";
+    -fx-background-radius: 15px;
+}
+
+#Questionap
+{
+    -fx-background-color:"white";
+    -fx-background-radius: 15px;
+}
+
+#questionText
+{
+    -fx-font-family: "Arial Black";
+}
+
+#sidepanel
+{
+    -fx-background-color:"#232E71";
+}
+#firstpageap
+{
+    -fx-background-color:"#C5D5F2";
+}
+
+#firstpage_sidepanel
+{
+    -fx-background-color:"#232E71";
+}
+
+#signuminnerap
+{
+    -fx-background-color:"#C5D5F2";
+    -fx-background-radius: 15px;
+    -fx-border-color: "white";
+    -fx-border-width: 1.5px 1.5px 1.5px 1.5px;
+    -fx-border-radius: 14px;
+}
+#loggedinap
+{
+    -fx-background-color:"#C5D5F2";
+}
+
+#signUpap
+{
+    -fx-background-color:"#C5D5F2";
+}
+
+#registerlabel
+{
+    -fx-font-family: "Arial Black";
+    -fx-font-size: 13;
+    -fx-alignment: center;
+}
+
+#demoap1
+{
+    -fx-background-color:"#8086AD";
+    -fx-background-radius: 15px;
+}
+
+#demoap2
+{
+    -fx-background-color:"#8086AD";
+    -fx-background-radius: 15px;
+}
+
+#demoap3
+{
+    -fx-background-color:"#8086AD";
+    -fx-background-radius: 15px;
+}
+
+#demoap4
+{
+    -fx-background-color:"#8086AD";
+    -fx-background-radius: 15px;
+}
+
+#loginap
+{
+    -fx-background-color:"#C5D5F2";
+}
+
+#it_jobland1
+{
+    -fx-font-family: "Arial Black";
+    -fx-font-size: 14;
+    -fx-alignment: center;
+}
+
+#button_blogpost
+{
+    -fx-background-color:"#C5D5F2";
+    -fx-font-family: "Arial Black";
+}
+
+#jobseeker_button
+{
+    -fx-background-color:"white";
+    -fx-font-family: "Arial Black";
+}
+
+#admin_button
+{
+    -fx-background-color:"white";
+    -fx-font-family: "Arial Black";
+}
+
+#employer_button
+{
+    -fx-background-color:"white";
+    -fx-font-family: "Arial Black";
+}
+
+#button_profile
+{
+    -fx-background-color:"#C5D5F2";
+    -fx-font-family: "Arial Black";
+}
+
+#button_companylist
+{
+    -fx-background-color:"#C5D5F2";
+    -fx-font-family: "Arial Black";
+}
+
+#button_searchjob
+{
+    -fx-background-color:"#C5D5F2";
+    -fx-font-family: "Arial Black";
+}
+
+#label_welcome
+{
+    -fx-font-family: "Arial Black";
+    -fx-font-size: 12;
+    -fx-alignment: center;
+}
+#button_logout
+{
+    -fx-font-family: "Arial Black";
+    -fx-text-alignment: center;
+    -fx-background-color:"#C5D5F2";
+}
+
+#loginsidepanel
+{
+    -fx-background-color:"#232E71";
+}
+#introap
+{
+    -fx-background-color:"white";
+    -fx-background-radius: 15px;
+    -fx-border-color: "C5D5F2";
+    -fx-border-width: 1.5px 1.5px 1.5px 1.5px;
+    -fx-border-radius: 14px;
+}
+
+.text-field
+{
+
+}
+
+.button
+{
+    -fx-background-radius: 9px;
+}
+
+.label{
+    -fx-font-size: 12;
+}
+/*#TittleLabel*/
+/*{*/
+/*    -fx-font-size: 60;*/
+/*}*/
