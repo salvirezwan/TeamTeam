@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="707.0" prefWidth="803.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.pdfform.PDFController">
+   <children>
+      <TextField fx:id="searchCV" layoutX="100.0" layoutY="50.0" prefHeight="26.0" prefWidth="285.0" />
+      <Label layoutX="38.0" layoutY="50.0" prefHeight="26.0" prefWidth="74.0" text="Search CV" />
+      <Label layoutX="23.0" layoutY="86.0" prefHeight="26.0" prefWidth="166.0" text="PERSONAL INFORMATION">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="19.0" layoutY="114.0" prefHeight="18.0" prefWidth="92.0" text="Full Name" />
+      <Label alignment="CENTER" layoutX="34.0" layoutY="147.0" prefHeight="18.0" prefWidth="81.0" text="Email Address" />
+      <Label alignment="CENTER" layoutX="24.0" layoutY="182.0" prefHeight="18.0" prefWidth="82.0" text=" Contact Info" />
+      <Label alignment="CENTER" layoutX="33.0" layoutY="222.0" text="Permanent Address" />
+      <Label layoutX="38.0" layoutY="236.0" prefHeight="18.0" prefWidth="54.0" />
+      <Label layoutX="23.0" layoutY="254.0" prefHeight="26.0" prefWidth="116.0" text="WORK EXPERIENCE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="36.0" layoutY="289.0" prefHeight="18.0" prefWidth="54.0" text="Job Title" />
+      <Label layoutX="35.0" layoutY="326.0" prefHeight="18.0" prefWidth="54.0" text="Job Title" />
+      <Label layoutX="33.0" layoutY="365.0" prefHeight="18.0" prefWidth="54.0" text="Job Title" />
+      <Label layoutX="266.0" layoutY="289.0" text="Company Name" />
+      <Label layoutX="488.0" layoutY="289.0" text="Start " />
+      <Label layoutX="632.0" layoutY="289.0" text="End" />
+      <Label layoutX="263.0" layoutY="326.0" text="Company Name" />
+      <Label layoutX="488.0" layoutY="325.0" text="Start" />
+      <Label layoutX="631.0" layoutY="325.0" text="End" />
+      <Label layoutX="263.0" layoutY="365.0" text="Company Name" />
+      <Label layoutX="488.0" layoutY="365.0" text="Start" />
+      <Label layoutX="631.0" layoutY="364.0" text="End" />
+      <ImageView fx:id="photo" fitHeight="110.0" fitWidth="110.0" layoutX="662.0" layoutY="110.0" pickOnBounds="true" preserveRatio="true" />
+      <TextField fx:id="name" layoutX="156.0" layoutY="110.0" prefHeight="26.0" prefWidth="371.0" />
+      <TextField fx:id="email" layoutX="156.0" layoutY="143.0" prefHeight="26.0" prefWidth="371.0" />
+      <TextField fx:id="permAdd" layoutX="152.0" layoutY="217.0" prefHeight="26.0" prefWidth="371.0" />
+      <TextField fx:id="contact" layoutX="155.0" layoutY="178.0" prefHeight="26.0" prefWidth="371.0" />
+      <TextField fx:id="jobTitle1" layoutX="91.0" layoutY="285.0" prefHeight="26.0" prefWidth="150.0" />
+      <TextField fx:id="jobTitle2" layoutX="89.0" layoutY="323.0" />
+      <TextField fx:id="jobTitle3" layoutX="89.0" layoutY="363.0" />
+      <TextField fx:id="comp1" layoutX="359.0" layoutY="285.0" prefHeight="26.0" prefWidth="125.0" />
+      <TextField fx:id="comp2" layoutX="358.0" layoutY="321.0" prefHeight="26.0" prefWidth="126.0" />
+      <TextField fx:id="comp3" layoutX="359.0" layoutY="363.0" prefHeight="26.0" prefWidth="126.0" />
+      <TextField fx:id="jobStart1" layoutX="518.0" layoutY="282.0" prefHeight="26.0" prefWidth="92.0" />
+      <TextField fx:id="jobStart2" layoutX="517.0" layoutY="318.0" prefHeight="26.0" prefWidth="92.0" />
+      <TextField fx:id="jobStart3" layoutX="518.0" layoutY="360.0" prefHeight="26.0" prefWidth="92.0" />
+      <TextField fx:id="jobEnd1" layoutX="656.0" layoutY="284.0" prefHeight="26.0" prefWidth="92.0" />
+      <TextField fx:id="jobEnd2" layoutX="656.0" layoutY="320.0" prefHeight="26.0" prefWidth="92.0" />
+      <TextField fx:id="jobEnd3" layoutX="656.0" layoutY="359.0" prefHeight="26.0" prefWidth="92.0" />
+      <Label layoutX="23.0" layoutY="383.0" prefHeight="26.0" prefWidth="74.0" text="EDUCATION">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="24.0" layoutY="413.0" prefHeight="18.0" prefWidth="47.0" text="SSC/Eq" />
+      <Label layoutX="24.0" layoutY="449.0" prefHeight="18.0" prefWidth="62.0" text="HSC/Eq" />
+      <Label layoutX="24.0" layoutY="489.0" prefHeight="18.0" prefWidth="62.0" text="Batchelor's" />
+      <Label layoutX="98.0" layoutY="412.0" text="Institution" />
+      <Label layoutX="313.0" layoutY="412.0" prefHeight="18.0" prefWidth="30.0" text="Year" />
+      <Label layoutX="459.0" layoutY="409.0" prefHeight="18.0" prefWidth="29.0" text="GPA" />
+      <Label layoutX="95.0" layoutY="449.0" text="Institution" />
+      <Label layoutX="314.0" layoutY="448.0" prefHeight="18.0" prefWidth="29.0" text="Year" />
+      <Label layoutX="458.0" layoutY="450.0" text="GPA" />
+      <Label layoutX="95.0" layoutY="488.0" text="Institution" />
+      <Label layoutX="313.0" layoutY="488.0" prefHeight="18.0" prefWidth="30.0" text="Year" />
+      <TextField fx:id="SSCinst" layoutX="182.0" layoutY="408.0" prefHeight="26.0" prefWidth="125.0" />
+      <TextField fx:id="HSCinst" layoutX="181.0" layoutY="444.0" prefHeight="26.0" prefWidth="126.0" />
+      <TextField fx:id="batchelorInst" layoutX="181.0" layoutY="485.0" prefHeight="26.0" prefWidth="126.0" />
+      <TextField fx:id="SSCyear" layoutX="350.0" layoutY="405.0" prefHeight="26.0" prefWidth="92.0" />
+      <TextField fx:id="HSCyear" layoutX="349.0" layoutY="441.0" prefHeight="26.0" prefWidth="92.0" />
+      <TextField fx:id="batchelorYear" layoutX="350.0" layoutY="483.0" prefHeight="26.0" prefWidth="92.0" />
+      <TextField fx:id="SSCGPA" layoutX="489.0" layoutY="405.0" prefHeight="26.0" prefWidth="92.0" />
+      <TextField fx:id="HSCGPA" layoutX="488.0" layoutY="441.0" prefHeight="26.0" prefWidth="92.0" />
+      <TextField fx:id="batchelorCGPA" layoutX="489.0" layoutY="481.0" prefHeight="26.0" prefWidth="92.0" />
+      <Label layoutX="454.0" layoutY="489.0" text="CGPA" />
+      <Label layoutX="25.0" layoutY="534.0" prefHeight="26.0" prefWidth="74.0" text="INTERESTS">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="Interests" layoutX="28.0" layoutY="561.0" prefHeight="54.0" prefWidth="746.0" />
+      <TextField fx:id="gitLink" layoutX="496.0" layoutY="50.0" prefHeight="26.0" prefWidth="272.0" />
+      <Label layoutX="421.0" layoutY="50.0" prefHeight="26.0" prefWidth="74.0" text="Github Link" />
+      <Label layoutX="25.0" layoutY="616.0" prefHeight="26.0" prefWidth="74.0" text="REFERENCES">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="References" layoutX="28.0" layoutY="642.0" prefHeight="34.0" prefWidth="746.0" />
+      <Button layoutX="691.0" layoutY="436.0" mnemonicParsing="false" onAction="#onCLickSave" prefHeight="26.0" prefWidth="92.0" text="Save" />
+      <Button layoutX="691.0" layoutY="475.0" mnemonicParsing="false" onAction="#onClickDownload" prefHeight="26.0" prefWidth="92.0" text="Download" />
+      <Button layoutX="691.0" layoutY="242.0" mnemonicParsing="false" onAction="#onClickAddPhoto" text="Add Photo" />
+   </children>
+</AnchorPane>
