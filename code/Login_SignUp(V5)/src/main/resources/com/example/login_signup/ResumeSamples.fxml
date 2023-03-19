@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="534.0" prefWidth="571.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.login_signup.ResumeSamplesController">
+   <children>
+      <Button fx:id="button_accountant" layoutX="34.0" layoutY="27.0" mnemonicParsing="false" text="Accountant" />
+      <Button layoutX="141.0" layoutY="27.0" mnemonicParsing="false" text="Business" />
+      <Button layoutX="228.0" layoutY="27.0" mnemonicParsing="false" text="Cashier" />
+      <Button layoutX="313.0" layoutY="27.0" mnemonicParsing="false" text="Engineer" />
+      <Button layoutX="390.0" layoutY="27.0" mnemonicParsing="false" text="Designer" />
+      <Button layoutX="476.0" layoutY="27.0" mnemonicParsing="false" text="Developer" />
+      <Button layoutX="68.0" layoutY="80.0" mnemonicParsing="false" text="Manager" />
+      <Button layoutX="172.0" layoutY="80.0" mnemonicParsing="false" text="Nurse" />
+      <Button layoutX="256.0" layoutY="80.0" mnemonicParsing="false" text="Intern" />
+      <Button layoutX="345.0" layoutY="80.0" mnemonicParsing="false" text="Doctor" />
+      <Button layoutX="442.0" layoutY="80.0" mnemonicParsing="false" text="Tutor" />
+      <TextArea layoutY="130.0" prefHeight="404.0" prefWidth="571.0" text="                          Some important things to consider when browsing resume samples&#10;&#10;                                                                           Industry&#10;When you’re searching for an example of a resume consider that the style of your resume will depend &#10;on the industry you work in. For instance, an actor’s resume will vary greatly from a professional &#10;accountant’s resume. If you are in a creative field, such as graphic design, employers will expect your &#10;resume to include form as well as function. If you’re searching for resume samples for a career change, &#10;try researching resume templates of people who are in that field to see what the norms are.&#10;&#10;                                                                    Resume templates&#10;Using resume templates as a foundation is a good place to start. Looking at an example of a resume that &#10;you like is a good way to determine the appearance you’re after. Yes, you can Google “resume template”&#10;and get some helpful results, but keep in mind that you will need to personalize and accentuate your&#10;professional details in a way that doesn’t look generic—like you copied it from a free resume template,&#10;for example, because employers expect more of potential employees than to have just pasted their info&#10;into an existing resume sample." />
+   </children>
+</AnchorPane>
